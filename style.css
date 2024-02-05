@@ -1,3 +1,6 @@
+body{  
+  font-family: Verdana, sans-serif;
+}
 .sec1{
   height: auto;
   display: flex;
@@ -9,6 +12,7 @@
   display: flex;
   justify-content: space-evenly;
   flex: 1;
+  font-size: 24px;
 }
 .header-left, .header-right{
   display: flex;
@@ -38,6 +42,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.signup-text{
+  max-width: 250px;
+}
 .signup-text button{
   border-radius: 0.5em;
   font-size: 16px;
@@ -50,7 +57,37 @@
   width: 250px
 }
 .sec2{
-  height: 600px;
+  height: 300px;
   display: flex;
   background: #45ad4e;
+  justify-content: center;
+  color:white;
+  gap: 50px;
 }
+.sec2title{
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  color: #45ad4e;
+  display: flex;
+  justify-content: center;
+}
+.info{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-holder{
+  height: 150px;
+  width: 100px;
+  border-radius: 1em;
+  border: 5px solid white;
+}
+.info .text{
+  text-align: center;
+  margin-top: 15px;
+}
+
+
